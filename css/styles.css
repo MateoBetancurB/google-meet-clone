@@ -1,0 +1,20 @@
+html {
+    font-size: 62.5%;
+}
+
+.main__container {
+    width: 100%;
+    min-width: 320px;
+    background-color: rgb(19, 19, 19);
+}
+
+.main__container--section {
+    padding-top: 20px;
+}
+
+.section__container--cards {
+    background-color: rgb(56, 56, 56);
+    height: 120px;
+    width: 90%;
+    margin: 0 auto 10px auto;
+}
