@@ -2,6 +2,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .main__container {
     width: 100%;
     min-width: 320px;
@@ -14,7 +18,33 @@ html {
 
 .section__container--cards {
     background-color: rgb(56, 56, 56);
-    height: 120px;
+    height: 200px;
     width: 90%;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 15px auto;
+    border-radius: 5px;
+}
+
+.section__container--microphone {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section__container--cards img {
+    width: 20px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.section__container--letter {
+    background-color: lightseagreen;
+    margin: 0 auto;
+    height: 70px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
 }
