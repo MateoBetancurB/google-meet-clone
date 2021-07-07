@@ -37,20 +37,21 @@ body {
 
 .section__container--letter {
     background-color: lightseagreen;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
     height: 70px;
     width: 80px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: white;
     font-size: 40px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section__container--paragraph {
     color: white;
-    margin-top: 85px;
+    font-weight: bold;
+    margin-top: 55px;
     margin-left: 7px;
 }
