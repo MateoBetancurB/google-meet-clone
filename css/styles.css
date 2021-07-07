@@ -48,3 +48,9 @@ body {
     font-size: 40px;
     font-weight: bold;
 }
+
+.section__container--paragraph {
+    color: white;
+    margin-top: 85px;
+    margin-left: 7px;
+}
