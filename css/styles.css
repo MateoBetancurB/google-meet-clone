@@ -25,8 +25,14 @@ body {
 }
 
 .section__container--microphone {
+    padding: 7px;
     display: flex;
     justify-content: flex-end;
+}
+
+.section__container--microphone span {
+    color: white;
+    font-size: 18px;
 }
 
 .section__container--cards img {
